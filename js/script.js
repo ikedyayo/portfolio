@@ -1,6 +1,6 @@
 $(function () {
 
-  //ページ内スクロール
+  //Page Scrawl
   var $nav = $(".header");
 
   $('a[href^="#"]').on("click", function () {
@@ -17,7 +17,7 @@ $(function () {
     return false;
   });
 
-  //ページトップ
+  //Page Top
   $("#js-page-top").on("click", function () {
     $("body,html").animate(
       {
